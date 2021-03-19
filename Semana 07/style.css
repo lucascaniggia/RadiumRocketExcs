@@ -1,0 +1,90 @@
+.lead-text {
+  margin: 0;
+  display: block;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "BWHaasGrotesk-75Bold-Web", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+  display: block;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 42px;
+  position: relative;
+  letter-spacing: -0.025em;
+}
+
+.politics {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 24px;
+  font-family: "BWHaasGrotesk-55Roman-Web", Helvetica, Arial, sans-serif;
+  line-height: 1.13;
+  margin-bottom: 5px;
+}
+
+ul,
+.subtitle {
+  font-family: "BWHaasGrotesk-55Roman-Web", Helvetica, Arial, sans-serif;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-style: normal;
+  line-height: 0.95;
+  margin-bottom: 3px;
+  display: inline-block;
+  text-align: left;
+}
+
+.author {
+  transition-property: color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+  color: #000;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.related {
+  background-color: transparent;
+  border-bottom: 1px dotted;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+span {
+  font-style: italic;
+  display: inline-block;
+}
+
+.article-content {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: "PT Roman Web", Georgia, "Times New Roman", Times, serif;
+  text-align: justify;
+}
+
+.comments,
+.assistance {
+  font-style: italic;
+}
+
+.comments {
+  color: #6d6d6d;
+}
