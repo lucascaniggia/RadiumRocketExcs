@@ -98,14 +98,42 @@ span {
 .article-content {
   font-size: 20px;
   display: block;
-  padding: 10px 10px 10px 30px;
+  padding: 0px 10px 10px 30px;
   margin: 40px;
   margin-block-start: 0;
-  margin-block-end: 1em;
+  margin-block-end: 0;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-family: "PT Roman Web", Georgia, "Times New Roman", Times, serif;
   text-align: justify;
+}
+
+.aside {
+  font-size: 14px;
+  width: auto;
+  height: auto;
+  float: left;
+  margin-right: 14px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.content,
+.share {
+  margin-top: 4px;
+  margin-bottom: 0px;
+  font-family: "BWHaasGrotesk-75Bold-Web", Helvetica, Arial, sans-serif;
+  display: block;
+  color: black;
+}
+
+.share:visited {
+  color: black;
+}
+
+.share:hover {
+  color: black;
+  text-decoration: underline;
 }
 
 .comments,
