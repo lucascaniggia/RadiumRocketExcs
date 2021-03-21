@@ -62,15 +62,25 @@ ul,
   margin: auto;
 }
 
-.author:hover,
-.related:hover {
+.author:hover {
   color: #6d6d6d;
   text-decoration: underline;
 }
 
+.related:hover {
+  color: black;
+  text-decoration: 1px underline;
+  text-decoration-;
+}
+
 .author:visited,
 .related:visited {
-  color: inherit;
+  color: black;
+}
+
+.author:active,
+.related:active {
+  color: #6d6d6d;
 }
 
 .author {
@@ -80,12 +90,12 @@ ul,
   transition-property: color;
   transition-duration: 0.2s;
   transition-timing-function: ease-out;
-  color: #6d6d6d;
+  color: black;
   cursor: pointer;
 }
 
 .related {
-  background-color: transparent;
+  color: black;
   text-decoration: 1px dotted underline;
   cursor: pointer;
 }
@@ -140,9 +150,17 @@ span {
   text-decoration: underline;
 }
 
-.comments,
-.assistance {
-  font-style: italic;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.fig-text {
+  font-family: "PT Roman Web", Georgia, "Times New Roman", Times, serif;
+  display: inline-block;
+  max-width: 600px;
+  width: auto;
 }
 
 .img,
@@ -150,7 +168,7 @@ span {
   color: #6d6d6d;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+.comments,
+.assistance {
+  font-style: italic;
 }
